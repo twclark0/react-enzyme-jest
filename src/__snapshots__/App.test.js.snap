@@ -1,6 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> matches the snapshot 1`] = `
+exports[`<App /> mount rendering matches the snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+    </header>
+    <p
+      className="App-intro"
+    >
+      Hello World
+    </p>
+    <p>
+      No!
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Click
+    </button>
+  </div>
+</App>
+`;
+
+exports[`<App /> shallow rendering matches the snapshot 1`] = `
 <div
   className="App"
 >
@@ -23,5 +59,13 @@ exports[`<App /> matches the snapshot 1`] = `
   >
     Hello World
   </p>
+  <p>
+    No!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click
+  </button>
 </div>
 `;
