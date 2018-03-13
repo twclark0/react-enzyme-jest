@@ -16,6 +16,14 @@ describe('<App /> shallow rendering', () => {
     const tree = shallow(<App />)
     expect(toJson(tree)).toMatchSnapshot()
   })
+  it('updates className with new State', () => {
+    const wrapper = shallow(<App />)
+    expect(wrapper.find('.blue').length).toBe(1)
+    expect(wrapper.find('.red').length).toBe(0)
+    wrapper.setState({ mainColor: 'red' })
+    expect(wrapper.find('.blue').length).toBe(0)
+    expect(wrapper.find('.red').length).toBe(1)    
+  })
   it('on button click changes p text', () => {
     const wrapper = shallow(<App />)
     const button = wrapper.find('button')

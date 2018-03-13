@@ -5,7 +5,8 @@ import './App.css'
 class App extends Component {
   state = { 
     on: false,
-    input: ''
+    input: '',
+    mainColor: 'blue'
   }
   render() {
     return (
@@ -13,6 +14,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
+          <h3 className={this.state.mainColor}>Everyone is Welcome!</h3>
         </header>
         <p className="App-intro">Hello World</p>
         <p className='button-state'>{this.state.on ? 'Yes!' : 'No!'}</p>

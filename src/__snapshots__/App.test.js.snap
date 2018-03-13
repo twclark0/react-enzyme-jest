@@ -18,6 +18,11 @@ exports[`<App /> mount rendering matches the snapshot 1`] = `
       >
         Welcome to React
       </h1>
+      <h3
+        className="blue"
+      >
+        Everyone is Welcome!
+      </h3>
     </header>
     <p
       className="App-intro"
@@ -60,6 +65,11 @@ exports[`<App /> shallow rendering matches the snapshot 1`] = `
     >
       Welcome to React
     </h1>
+    <h3
+      className="blue"
+    >
+      Everyone is Welcome!
+    </h3>
   </header>
   <p
     className="App-intro"
