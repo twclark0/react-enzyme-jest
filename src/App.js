@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Form from './Form'
 import logo from './logo.svg'
 import './App.css'
 
@@ -27,6 +28,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
           <h3 className={this.state.mainColor}>Everyone is Welcome!</h3>
         </header>
+        <Form />
         <p className="App-intro">Hello World</p>
         <p className='button-state'>{this.state.on ? 'Yes!' : 'No!'}</p>
         <button onClick={() => this.setState({on: true})}>Click</button>

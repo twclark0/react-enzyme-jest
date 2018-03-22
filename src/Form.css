@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    background: #535774;
+    padding: 35px;
+}
+input {
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+button {
+    background: #0F4FFF;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    color: #fff;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-top: 25px;
+}
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.promotions {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+}
