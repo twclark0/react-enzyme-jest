@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Form from './Form'
+import TodoList from './TodoList'
 import logo from './logo.svg'
 import './App.css'
 
@@ -23,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/*<header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
           <h3 className={this.state.mainColor}>Everyone is Welcome!</h3>
@@ -34,7 +35,8 @@ class App extends Component {
         <button onClick={() => this.setState({on: true})}>Click</button>
         <h2>{this.state.input}</h2>
         <input onChange={(e) => this.setState({input: e.currentTarget.value})} type='text' />
-        <p className='lifeCycle'>{this.state.lifeCycle}</p>
+        <p className='lifeCycle'>{this.state.lifeCycle}</p>*/}
+        <TodoList />
       </div>
     )
   }
