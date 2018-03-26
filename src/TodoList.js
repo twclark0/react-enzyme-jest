@@ -4,7 +4,7 @@ import { addTodo, removeTodo } from './store'
 
 import './TodoList.css'
 
-class TodoList extends Component {
+export class TodoList extends Component {
   state = { input: '' }
 
   handleClick = i => () => {
