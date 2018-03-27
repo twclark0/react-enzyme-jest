@@ -101,6 +101,7 @@ exports[`<App /> mount rendering matches the snapshot 1`] = `
     >
       componentDidMount
     </p>
+    *
   </div>
 </App>
 `;
@@ -154,5 +155,6 @@ exports[`<App /> shallow rendering matches the snapshot 1`] = `
   >
     componentDidMount
   </p>
+  *
 </div>
 `;
